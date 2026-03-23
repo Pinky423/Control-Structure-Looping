@@ -1,4 +1,5 @@
-i=1
-while(i<=51):
-    if i%2==0:
-        print(i)
+i = 2
+
+while i <= 50:
+    print(i)
+    i = i + 2
