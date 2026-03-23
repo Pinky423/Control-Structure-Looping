@@ -1,0 +1,6 @@
+text = "PYTHON"
+
+for ch in text:
+    if ch in "AEIOUaeiou":   
+        continue             
+    print(ch)
