@@ -1,5 +1,4 @@
-n = "5"
-
-for i in range(4, 0, -1):
-    n = str(i) + n
-    print(n)
+for i in range(1, 6):
+    for j in range(5, 5 - i, -1):
+        print(j, end=" ")
+    print()
